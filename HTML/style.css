@@ -1,0 +1,177 @@
+body {
+    margin: 0px;
+
+}
+
+.header {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row {
+    width: 1140px;
+    height: 865px;
+    padding-left: 275px;
+}
+
+.about-and-sign-in {
+    height: 79;
+    width: 1140px;
+    position: relative;
+}
+
+.about,
+.sign-in {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+.about {
+    padding-right: 80px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+.sign-in {
+    border: 1px solid #429321;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 295;
+    width: 1140px;
+    text-align: center !important;
+
+
+}
+
+.hapoERP {
+    height: 77px;
+    width: 256px;
+    margin: 165px 0 53px 0;
+}
+
+.icon {
+    height: 110;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between !important;
+    margin-bottom: 53;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.d-block {
+    display: block !important;
+
+}
+
+.better {
+    height: 110;
+    width: 369.99px;
+    text-align: center !important;
+    margin-left: 1.5rem !important;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.faster {
+    height: 110;
+    width: 180px;
+    text-align: center !important;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.together {
+    height: 110;
+    width: 369.99px;
+    text-align: center !important;
+    margin-left: 1.5rem !important;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.icon-and-text span {
+    height: 48px;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -0.07px;
+    line-height: 48px;
+}
+
+img {
+    width: 52px;
+    height: 48px;
+    margin-bottom: 14px;
+}
+
+.paragraph {
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #283238;
+    font-family: Roboto;
+    font-style: italic;
+    letter-spacing: -0.02px;
+    text-align: center !important;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    margin-top: 31px;
+    margin-bottom: 233px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center !important;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.btn-start {
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    font-family: Roboto;
+    color: #FFFFFF;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    width: 144px;
+}
