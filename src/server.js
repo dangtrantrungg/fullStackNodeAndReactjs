@@ -2,7 +2,7 @@ import express from 'express'
 import configViewEngine from './configs/viewEngine'
 import initWebRoute from './routes/web'
 import bodyPaser from 'body-parser'
-require('dotenv').config({path:'./src/.env'})
+require('dotenv').config()
 
 
 const app = express()
